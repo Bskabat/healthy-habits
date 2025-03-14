@@ -1,0 +1,160 @@
+/* header settings*/
+.header1{
+    background: linear-gradient(to right, black,gold);
+    text-align:center;
+    padding:2%;
+    font-size:30px;
+    color:linear-gradient(to right, black,gold);
+}
+.header2{
+    
+    text-align:center;
+    padding: 2%;
+}
+.header3{
+    
+    text-align:center;
+    padding: 2%;
+}
+.header4{
+    text-align:center;
+    padding: 2%;
+}
+
+/* text settings*/
+.text1{
+    background: linear-gradient(to right, red,aqua);/* Fade from red to blue */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text2{
+    background: linear-gradient(to right, darkblue,white);/* Fade from red to blue */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text3{
+    background: linear-gradient(to right, white,black);/* Fade from red to blue */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text4{
+    background: linear-gradient(to right, green,white);/* Fade from red to blue */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*image settings*/
+.img-1{
+    margin-left:auto;
+    border:3px solid black;
+    width: 40%;
+    height: auto;
+}
+.img-2{
+    margin-left:auto;
+    border:3px solid black;
+    width: 25%;
+    height: auto;
+}
+.img-3{
+    margin-left:auto;
+    border:3px solid black;
+    width: 27%;
+    height: auto;
+}
+.img-4{
+    margin-left:auto;
+    border:3px solid black;
+    width: 20%;
+    height: auto;
+}
+/*aligns the text next to image */
+.text-align-1{
+	position: absolute;
+	top: 35%;
+	left: 42%;
+    transform:translate;
+}
+.text-align-2{
+	position: absolute;
+	top: 35%;
+	left: 30%;
+
+}
+.text-align-3{
+	position: absolute;
+	top: 35%;
+	left: 30%
+}
+.text-align-4{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
+/*adjusts text and font */
+.text-1{
+	font-size:25px;
+}
+.text-2{
+	font-size:25px;
+}
+.text-3{
+	font-size:25px;
+}
+.text-4{
+	font-size:25px;
+}
+/* menu bar settings*/
+nav {
+    background: linear-gradient(to right, black, black,gold,black,black);
+    text-align:center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-item a:hover {
+    background-color: #555;
+}
+
+/* Dropdown menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color:darkred;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background: linear-gradient(to right, black,rgb(148, 126, 1));
+    min-width: 100px;
+    list-style-type: none;
+}
+
+.dropdown-menu li a {
+    padding: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #555;
+}

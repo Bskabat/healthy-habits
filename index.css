@@ -1,0 +1,81 @@
+.title{
+	text-align: center;
+	font-size:30px;
+	background-color: aqua;
+	padding: 2%;
+	background-size: cover;
+    background-repeat: no-repeat;
+	
+}
+.text{
+	background: linear-gradient(to right, rgb(0, 0, 0),rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text2{
+	background: linear-gradient(to right, rgb(0, 0, 0),gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body{
+	background-color: gray;
+}
+.chart-1{
+	position: absolute;
+	margin:auto;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-120%, -27%);
+	background: linear-gradient(to right, white,gold, gold);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.chart-2{
+  	position: absolute;
+	margin:auto;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -19%);
+	background: linear-gradient(to right,gold,gold);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.chart-3{
+	position: absolute;
+	margin:auto;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(15%, -23%);
+	background: linear-gradient(to right,gold,gold);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.chart-4{
+	position: absolute;
+	margin:auto;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(90%, -16%);
+	background: linear-gradient(to right,gold,white,white,white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.img-1-size{
+	width: 70%;
+	border: 10px solid gold;
+}.img-2-size{
+	width:50%;
+	height: auto;
+	border: 10px solid gold;
+}
+.img-3-size{
+	width:50%;
+	height: auto;
+	border: 10px solid gold;
+}
+.img-4-size{
+	width:50%;
+	height: auto;
+	border: 10px solid gold;
+}
